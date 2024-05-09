@@ -1,5 +1,13 @@
+import CardList from "./components/CardList";
+import { useEffect } from "react";
+
 const App = () => {
-  return <div className="bg-red-100">Hello, React!</div>;
+  useEffect(() => {}, []);
+  return (
+    <div className="bg-pink-200 max-w-screen-md mx-auto">
+      <CardList />
+    </div>
+  );
 };
 
 export default App;
